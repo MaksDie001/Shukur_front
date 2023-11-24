@@ -1,7 +1,7 @@
 .slogan{
   font-size: 12px;
 }
-.header_back{
+.nav_back{
   background: rgba(0, 0, 0, 0.74);
   color:#FFFFFF;
 }
@@ -24,6 +24,10 @@
 .header_nav ul{
   list-style: none;
 
+}
+.header_nav ul a{
+  color: #FEFEFE;
+  text-decoration: none;
 }
 #unique_link{
   margin-right: 44px;
@@ -54,11 +58,19 @@
 .menu_button{
   margin-right: 62px;
 }
+.menu_button a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
 .app_button{
   margin-right: 91px;
   padding: 10px 5px 0 5px;
   border: 1px solid white;
   border-radius: 10px;
+}
+.app_button a{
+  color: #FFFFFF;
+  text-decoration: none;
 }
 .menu_bt_div{
   display: flex;
