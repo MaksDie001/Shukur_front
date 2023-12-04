@@ -1,0 +1,78 @@
+.products{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.pr_h2{
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.pr_bar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.pr_bar a{
+    text-decoration: none;
+    margin-left: 34px;
+    color: rgba(113, 113, 113, 1);
+
+}
+.pr_bar a:hover{
+    color: #36873E;
+    text-decoration: underline;
+}
+.pr_h2_two{
+    text-align: center;
+    color: #717171;
+
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.img_layer{
+    display: flex;
+    justify-content: space-around;
+}
+.pr_card{
+    padding: 25px 0 0 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 9px 18px 7px rgba(0, 0, 0, 0.17);
+    width: 50%;
+    margin-bottom: 100px;
+    margin-right: 5%;
+}
+.product_row{
+    justify-content: space-around;
+}
+.pr_card_bolt{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 162.9%; /* 26.064px */
+    display: inline;
+}
+.text_layer{
+    margin-top: 22px;
+    margin-left: 25px;
+}
+.pr_card_text{
+    width: 80%;
+}
+.pr_card_label{
+    color: #36873E;
+
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 162.9%; /* 26.064px */
+    text-transform: uppercase;
+    margin-right: 15px;
+}

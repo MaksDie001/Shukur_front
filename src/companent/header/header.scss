@@ -4,6 +4,23 @@
   background-size: cover;
   height: 720px;
   position: relative;
+  transition: 1.5s left ;
+}
+.header_back1 {
+  background-image: url("back2 .jpg");
+  background-repeat-x: no-repeat;
+  background-size: cover;
+  height: 720px;
+  position: relative;
+  transition: 1.5s ;
+}
+.header_back2{
+  background-image: url("back3.jpg");
+  background-repeat-x: no-repeat;
+  background-size: cover;
+  height: 720px;
+  position: relative;
+  transition: 1.5s;
 }
 .header_text{
   position: absolute;
