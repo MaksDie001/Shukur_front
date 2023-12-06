@@ -2,14 +2,13 @@ import './App.css';
 import Menu from "./companent/menu/Menu";
 import Home from "./companent/home/home";
 import Footer from "./companent/footer/footer";
-import Contacs from "./companent/contacs/contacs";
 import Higher_footer from "./companent/higher_footer/higher_footer";
-import Products from "./companent/products/products";
+import Product_info from "./companent/product_info/product_info";
 function App() {
   return (
       <div>
           <Menu />
-          <Products />
+          <Product_info />
           <Higher_footer />
           <Footer />
       </div>
