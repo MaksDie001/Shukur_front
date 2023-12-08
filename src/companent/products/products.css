@@ -48,7 +48,7 @@
     margin-right: 5%;
 }
 .product_row{
-    justify-content: space-around;
+    justify-content: center;
 }
 .pr_card_bolt{
     font-size: 16px;
